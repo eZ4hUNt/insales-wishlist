@@ -1,4 +1,8 @@
 # Мод "Добавить в избранное" для InSales
+![Мод "Добавить в избранное" для InSales (Preview #1)](https://github.com/eZ4hUNt/insales-wishlist/blob/master/Preview%20%231.jpg?raw=true)
+![Мод "Добавить в избранное" для InSales (Preview #2)](https://github.com/eZ4hUNt/insales-wishlist/blob/master/Preview%20%232.jpg?raw=true)
+![Мод "Добавить в избранное" для InSales (Preview #3)](https://github.com/eZ4hUNt/insales-wishlist/blob/master/Preview%20%233.jpg?raw=true)
+
 1. Добавить в карточку товара 
 ```
 	{% if client %}
