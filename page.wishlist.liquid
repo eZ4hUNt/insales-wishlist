@@ -1,0 +1,30 @@
+	{% include 'collection_init' %}
+	<section class="cart-box page-box row">
+		<div class="page-box__container wrapper">
+			<aside class="collection-box__side-col page-box__side-col">
+				{% include 'client-navigation'  %}
+			</aside>
+			<section class="collection-box__content-col page-box__content-col">
+				<div class="products-grid">
+					<header class="collection-box__header products-grid__header page-box__header row">
+						{% include 'breadcrumbs'  %}
+						<div class="collection-box__header-title page-box__header-title">
+							<h1 class="collection-box__header-title-h1 page-box__header-title-h1">		
+								{{ page.title }}
+							</h1>
+						</div>
+					</header>
+					{% if client %}
+						<div class="products-grid__body collection-products collection-products_wishlist" data-products-grid data-wishlist-products-list>
+						</div>
+					{% else %}
+						<div class="collection-box__message static-text">
+							<p>
+								Для того, чтобы посмотреть избранное, вам нужно войти в свой <a href="/client_account/session/new" title="" style="text-decoration: underline">личный кабинет</a>
+							</p>
+						</div>
+					{% endif %}
+				</div>
+			</section>
+		</div>
+	</section>
